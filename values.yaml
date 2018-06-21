@@ -72,6 +72,9 @@ healthCheckToken: 'SXBAQichEJasbtDSygrD'
 #  gitlab_rails['smtp_enable'] = true
 #  gitlab_rails['smtp_address'] = "smtp.example.org"
 
+ingress:
+  annotations: {}
+
 gitlab-runner:
   checkInterval: 1
   # runnerRegistrationToken must equal initialSharedRunnersRegistrationToken
